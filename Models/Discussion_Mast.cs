@@ -6,5 +6,6 @@ namespace ECampusDiscussion.Models
   {
     [Column(TypeName = "varchar(MAX)")]
     public required string Discussion { get; set; }
+    public required string Discussion_Title { get; set; }
   }
 }

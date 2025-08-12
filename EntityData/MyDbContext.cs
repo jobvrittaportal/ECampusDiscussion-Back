@@ -13,5 +13,6 @@ namespace ECampusDiscussion.EntityData
         public DbSet<User_Roles> User_Roles { get; set; }
         public DbSet<User_Details> User_Details { get; set; }
         public DbSet<Permission_Table> Permission_Table { get; set; }
+        public DbSet<Discussion_Mast> Discussion_Mast { get; set; }
     }
 }
